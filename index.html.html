@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teenlancer - Funngro</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  .main-content {
+    padding: 20px;
+  }
+  .card {
+    background: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .card:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+<div class="navbar">Funngro Teenlancer</div>
+<div class="main-content">
+  <div class="card" id="intro">
+    <h2>Welcome Teenlancers!</h2>
+    <p>Start your journey with real-world projects and earn while you learn.</p>
+    <a href="#" class="btn">Join Now</a>
+  </div>
+  <div class="card" id="categories">
+    <h2>Explore Categories</h2>
+    <p>Choose from a variety of categories like coding, design, marketing and more!</p>
+    <a href="#" class="btn">Explore</a>
+  </div>
+</div>
+
+<script>
+  // Example of JavaScript to make the page interactive
+  document.getElementById('intro').addEventListener('click', function() {
+    alert('Welcome to Funngro! Ready to start your journey?');
+  });
+
+  document.getElementById('categories').addEventListener('click', function() {
+    alert('Explore various categories and find your passion!');
+  });
+</script>
+</body>
+</html>
